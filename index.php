@@ -67,8 +67,8 @@ require_once ("../talentspark-interview-test-pamudu/php/operation.php");
                     </tr>
                 </thead>
                 <tbody id="tbody">
+                    
                    <?php
-
 
                    if(isset($_POST['read'])){
                        $result = getData();
@@ -79,8 +79,7 @@ require_once ("../talentspark-interview-test-pamudu/php/operation.php");
 
                                <tr>
                                    <td data-id="<?php echo $row['id']; ?>"><?php echo $row['id']; ?></td>
-                                   <td data-id="<?php echo $row['id']; ?>"><?php echo $row['title']; ?></td>
-                               
+                                   <td data-id="<?php echo $row['id']; ?>"><?php echo $row['title']; ?></td>                               
                                    <td data-id="<?php echo $row['id']; ?>"><?php echo '$' . $row['amount']; ?></td>
                                   <td></td>
                                    <td ><?php buttonElement("btn-dollar-sign","btn btn-success","<i class='fas fa-dollar-sign'></i>","delete","data-toggle='tooltip' data-placement='bottom' title='Buy'"); ?></td>

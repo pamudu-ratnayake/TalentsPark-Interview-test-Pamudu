@@ -2,7 +2,6 @@
 let id = $("input[name*='image_id']")
 id.attr("readonly","readonly");
 
-
 function displayData(e) {
     let id = 0;
     const td = $("#tbody tr td");

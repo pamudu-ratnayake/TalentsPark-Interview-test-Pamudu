@@ -1,6 +1,5 @@
 <?php
 
-
 function inputElement($icon, $placeholder, $name, $value){
     $ele = "
         

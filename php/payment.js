@@ -15,6 +15,7 @@ function stripePay(event) {
     }
 }
 
+
 function stripeResponseHandler(status, response) {
  if(response.error) {
   $('#payNow').attr('disabled', false);

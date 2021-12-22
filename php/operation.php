@@ -20,7 +20,6 @@ if(isset($_POST['delete'])){
 
 if(isset($_POST['deleteall'])){
     deleteAll();
-
 }
 
 function createData(){
